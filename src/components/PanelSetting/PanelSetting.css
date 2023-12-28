@@ -1,0 +1,22 @@
+.panel-setting__title {
+  font-weight: 400;
+  margin: 34px 0 26px;
+}
+
+.panel-setting__select {
+  display: flex;
+  gap: 16px;
+  margin: 0 0 24px 0;
+}
+
+.panel-setting__btn-panel {
+  display: flex;
+  gap: 16px;
+  margin: 0 0 16px 0;
+}
+
+.panel-setting__btn {
+  margin: 56px 0 40px 0;
+  display: flex;
+  gap: 16px
+}

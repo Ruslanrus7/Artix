@@ -1,0 +1,23 @@
+.button {
+  padding: 9px 16px;
+  border: none;
+  background-color: #0D47A1;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 500;
+  border-radius: 4px;
+  transition: opacity 0.6s linear;
+  cursor: pointer;
+  text-transform: uppercase;
+  letter-spacing: 0.4px;
+}
+
+.button:hover {
+  opacity: 0.7;
+}
+
+.button_type_cancel {
+  background-color: #fff;
+  color: #0D47A1;
+  border: 1px solid #0D47A1;
+}

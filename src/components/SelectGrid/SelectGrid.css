@@ -1,0 +1,20 @@
+.select-grid {
+  width: 200px;
+  position: relative;
+  display: inline-block;
+}
+
+.select-grid__name {
+  position: absolute;
+  font-size: 12px;
+  color: rgba(0, 0, 0, 0.6);
+  left: 13px;
+  top: -7px;
+  background-color: #fff;
+  padding: 0 4px;
+  z-index: 10;
+}
+
+.select-grid__indicator-separator {
+  display: none;
+}

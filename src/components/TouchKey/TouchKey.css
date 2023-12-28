@@ -1,0 +1,65 @@
+.touch-key {
+  width: 119px;
+  height: 119px;
+  box-sizing: border-box;
+  padding: 5px;
+  position: relative;
+  background-color: #E2E2E2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-radius: 4px;
+}
+
+.touch-key_test {
+  grid-row: 5;
+  grid-column: 6;
+}
+
+.touch-key__text {
+  display: flex;
+  width: 87px;
+  font-size: 12px;
+  margin: 0;
+  height: 60px;
+  align-items: center;
+  overflow: hidden;
+}
+
+.touch-key__btn {
+  width: 24px;
+  height: 24px;
+  border: none;
+  cursor: pointer;
+  position: absolute;
+  background-color: inherit;
+  display: none;
+  transition: opacity 0.6s linear;
+}
+
+.touch-key:hover .touch-key__btn {
+  display: block;
+}
+
+.touch-key__btn:hover {
+  opacity: 0.7;
+}
+
+.touch-key__btn-drag {
+  background-image: url(../../images/dragFiled.svg);
+  top: 5px;
+  left: 5px;
+}
+
+.touch-key__btn-delete {
+  background-image: url(../../images/deleteFilled.svg);
+  bottom: 5px;
+  left: 5px;
+}
+
+.touch-key__btn-width {
+  background-image: url(../../images/widthFiled.svg);
+  bottom: 5px;
+  right: 5px;
+}

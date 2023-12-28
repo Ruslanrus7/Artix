@@ -1,0 +1,16 @@
+.base-setting {
+
+}
+
+.base-setting__title {
+  font-weight: 400;
+  margin: 0 0 26px 0;
+}
+
+.base-setting__code {
+  margin: 0 0 24px 0;
+}
+
+.base-setting__page {
+  margin: 0 0 24px 0;
+}

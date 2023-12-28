@@ -1,0 +1,8 @@
+.panel-screen {
+  padding: 14px;
+  box-sizing: border-box;
+  border: 1px solid rgba(0, 0, 0, 0.23);
+  display: grid;
+  gap: 19px;
+  border-radius: 4px;
+}

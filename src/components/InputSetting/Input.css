@@ -1,0 +1,29 @@
+.input-box {
+  position: relative;
+}
+
+.input-box__label {
+  position: absolute;
+  font-size: 13px;
+  color: rgba(0, 0, 0, 0.6);
+  left: 14px;
+  top: -7px;
+  background-color: #fff;
+  padding: 0 4px;
+}
+
+.input-box__input {
+  border: 1px solid rgba(0, 0, 0, 0.23);
+  padding: 10px 8px;
+  border-radius: 4px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.input-box_size_code {
+  width: 200px;
+}
+
+.input-box_size_page {
+  width: 416px;
+}
